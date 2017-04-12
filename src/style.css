@@ -1,0 +1,56 @@
+/* cssnext */
+
+a:hover {
+  color: color(var(--color-sec) a(80%));
+}
+
+@media (768px <= width <= 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+:root {
+  --color-prim: #b22222;
+  --color-sec: steelblue;
+}
+
+.highlight {
+  background: var(--color-prim);
+  border: solid 1px var(--color-sec);
+}
+
+/* pxtorem */
+
+h1 {
+  color: var(--color-prim);
+  font-size: 60px;
+  margin-bottom: 40px;
+  letter-spacing: 1px;
+}
+
+/* autoprefixer */
+
+.nav {
+  dislpay: flex;
+  flex-direction: column;
+}
+
+/* SVG Fragments */
+
+.icon-gear {
+  background: url(../svg/icons.svg#gear);
+}
+
+.icon-hammer {
+  background: url(../svg/icons.svg#hammer);
+}
+
+.icon-heart {
+  background: url(../svg/icons.svg#heart);
+}
+
+.icn {
+  width: 150px;
+  height: 150px;
+}

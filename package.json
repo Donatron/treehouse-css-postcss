@@ -1,0 +1,19 @@
+{
+  "name": "postcss",
+  "version": "1.0.0",
+  "description": "PostCSS workshop project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cssnano": "^3.10.0",
+    "gulp": "^3.9.1",
+    "gulp-postcss": "^6.4.0",
+    "postcss-cssnext": "^2.10.0",
+    "postcss-pxtorem": "^4.0.0",
+    "postcss-svg-fragments": "^2.2.0"
+  }
+}
